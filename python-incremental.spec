@@ -7,7 +7,9 @@ Group:		Development/Python
 Url:		https://pypi.org/project/incremental/
 Source0:	https://files.pythonhosted.org/packages/da/b0/32233c9e84b0d44b39015fba8fec03e88053723c1b455925081dc6ccd9e7/incremental-%{version}.tar.gz
 BuildRequires:	pkgconfig(python3)
+BuildRequires:	python-setuptools
 BuildRequires:	pkgconfig(python)
+BuildRequires:	python2-setuptools
 BuildArch:	noarch
 
 %description
