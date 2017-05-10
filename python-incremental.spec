@@ -1,7 +1,7 @@
 Summary:	Library for versioning Python projects
 Name:		python-incremental
 Version:	16.10.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/incremental/
