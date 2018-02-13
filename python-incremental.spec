@@ -1,11 +1,11 @@
 Summary:	Library for versioning Python projects
 Name:		python-incremental
-Version:	16.10.1
-Release:	2
+Version:	17.5.0
+Release:	1
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/incremental/
-Source0:	https://files.pythonhosted.org/packages/da/b0/32233c9e84b0d44b39015fba8fec03e88053723c1b455925081dc6ccd9e7/incremental-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/8f/26/02c4016aa95f45479eea37c90c34f8fab6775732ae62587a874b619ca097/incremental-%{version}.tar.gz
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python-setuptools
 BuildRequires:	pkgconfig(python)
