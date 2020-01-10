@@ -24,7 +24,7 @@ Library for versioning Python 2.x projects
 
 %prep
 %setup -qn incremental-%{version}
-%apply_patches
+%autopatch -p1
 
 mkdir python2
 mv `ls |grep -v python2` python2
