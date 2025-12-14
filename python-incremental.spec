@@ -8,19 +8,11 @@ Url:		https://pypi.org/project/incremental/
 Source0:	https://files.pythonhosted.org/packages/source/i/incremental/incremental-%{version}.tar.gz
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python-setuptools
+BuildSystem:    python
 BuildArch:	noarch
 
 %description
 Library for versioning Python projects
-
-%prep
-%setup -qn incremental-%{version}
-
-%build
-python setup.py build
-
-%install
-python setup.py install --root=%{buildroot}
 
 %files
 %defattr(0644,root,root,0755)
