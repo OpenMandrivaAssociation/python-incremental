@@ -11,6 +11,7 @@ BuildRequires:	python-setuptools
 BuildRequires:  python-hatchling
 BuildRequires:  python-pip
 BuildSystem:    python
+BuildArch:	noarch
 
 %description
 Library for versioning Python projects
