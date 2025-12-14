@@ -15,7 +15,6 @@ Library for versioning Python projects
 
 %prep
 %setup -qn incremental-%{version}
-%autopatch -p1
 
 %build
 python setup.py build
