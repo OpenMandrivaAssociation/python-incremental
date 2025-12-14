@@ -19,4 +19,3 @@ Library for versioning Python projects
 %files
 %defattr(0644,root,root,0755)
 %{py_sitedir}/incremental
-%{py_sitedir}/*.egg-info
