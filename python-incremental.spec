@@ -11,12 +11,12 @@ BuildRequires:	python-setuptools
 BuildRequires:  python-hatchling
 BuildRequires:  python-pip
 BuildSystem:    python
-BuildArch:	noarch
 
 %description
 Library for versioning Python projects
 
 %files
 %defattr(0644,root,root,0755)
+%{_bindir}/incremental
 %{py_sitedir}/incremental
 %{python_sitelib}/incremental-%{version}.dist-info
